@@ -1,3 +1,5 @@
+#! /bin/sh
+#source ~/.bash_profile
 Today=`date +%Y%m%d`
 
 odps sql "drop table push_action_analysis"

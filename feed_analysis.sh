@@ -1,3 +1,4 @@
+source ~/.bash_profile
 Today=`date +%Y%m%d`
 
 odps sql "drop table recom_feed_action_analysis"
